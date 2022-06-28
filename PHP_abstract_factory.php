@@ -72,7 +72,7 @@ class Product2_2 extends AbstractProduct2{
 		 echo "Inside Product2_2::Display()\n";
 	 }
 	
-
+}
 
 //Series 1 products
 
