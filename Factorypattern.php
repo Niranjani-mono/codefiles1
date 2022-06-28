@@ -24,7 +24,8 @@ class Book{
 class BookFactory{
 	
 	public static function create($name ,$author){		
-		return new Abstract Factory Design Pattern($name ,$author);
+		//return new Abstract Factory Design Pattern($name ,$author);
+		return new Book($name ,$author);
 	}
 	
 }
